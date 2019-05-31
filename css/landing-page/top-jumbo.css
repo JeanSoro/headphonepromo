@@ -1,0 +1,126 @@
+#top_jumbo {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #b948f2 77%,
+    #e0a1df 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #b948f2 77%,
+    #e0a1df 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #b948f2 77%,
+    #e0a1df 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  padding: 0 0 400px; /*top, left + right, bottom values*/
+}
+
+#top_jumbo:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  /*when using float, put this fix on parent element*/
+}
+
+/*------------------------------------------------------*/
+
+#top_jumbo .left_side {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+#top_jumbo .left_side .large_number {
+  font-size: 300px;
+  font-weight: 700;
+  opacity: 0.1;
+  color: #4c44c1;
+  position: relative;
+  left: -20px;
+  z-index: 1;
+  top: 0;
+}
+
+/*------------------------------------------------------*/
+
+#top_jumbo .left_side .info_container {
+  position: relative;
+  top: -100px;
+}
+
+#top_jumbo .left_side .info_container h1 {
+  color: #6066f2;
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  line-height: 1.1;
+}
+
+#top_jumbo .left_side .info_container p {
+  color: #aaacaf;
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+/*------------------------------------------------------*/
+
+#top_jumbo .left_side .info_container .email_input_area {
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#top_jumbo .left_side .info_container .email_input_area .far {
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+}
+
+/*------------------------------------------------------*/
+
+#top_jumbo .left_side .info_container .email_input_area input[type="email"] {
+  background: #fff;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 230px;
+}
+
+#top_jumbo .left_side .info_container .email_input_area button {
+  background: #6066f2;
+  border-radius: 50px;
+  color: white;
+  font-size: 1rem;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+/*------------------------------------------------------*/
+
+#top_jumbo .right_side {
+  width: 60%;
+  display: inline-block;
+  float: left;
+  padding: 0 40px;
+}
+
+#top_jumbo .right_side img {
+  width: 100%;
+}
