@@ -1,0 +1,144 @@
+#latest_headphones {
+  padding: 50px 0;
+}
+
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+
+#latest_headphones .header_content {
+  padding: 50px 0;
+}
+
+#latest_headphones .header_content:after {
+  content: "";
+  display: table;
+  clear: both;
+  /*when using float, put this fix on parent element*/
+}
+
+/*--------------------------------------------------------*/
+
+#latest_headphones .header_content h1 {
+  color: #6066f2;
+  font-size: 4.3rem;
+  text-transform: capitalize;
+  max-width: 400px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#latest_headphones .header_content .directions {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 35px;
+}
+
+/*--------------------------------------------------------*/
+
+#latest_headphones .header_content .directions .move_left {
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  float: left;
+  padding: 20px 70px;
+  font-size: 3rem;
+  background: #6066f2;
+  color: #fff;
+  border: 1px solid #6066f2;
+  /* width: 40px; */
+}
+
+#latest_headphones .header_content .directions .move_right {
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  float: right;
+  padding: 20px 70px;
+  font-size: 3rem;
+  background: #fff;
+  color: #cecece;
+  border: 1px solid #cecece;
+  /* width: 40px; */
+}
+
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+
+#latest_headphones .body_content {
+  padding: 100px 0;
+}
+
+#latest_headphones .body_content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#latest_headphones .body_content .column {
+  width: 33.33%;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+}
+
+#latest_headphones .body_content .column .bg_square {
+  background: #160575; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #160575 1%,
+    #ad2f08 41%,
+    #6b1749 74%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #160575 1%,
+    #ad2f08 41%,
+    #6b1749 74%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #160575 1%, #ad2f08 41%, #6b1749 74%);
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#latest_headphones .body_content .column .bg_square img {
+  width: 70%;
+  position: absolute;
+  top: -20%;
+  left: 15%;
+}
+
+#latest_headphones .body_content .column .bg_square .cart {
+  background: #160575; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #160575 1%,
+    #ad2f08 41%,
+    #6b1749 74%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #160575 1%,
+    #ad2f08 41%,
+    #6b1749 74%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #160575 1%, #ad2f08 41%, #6b1749 74%);
+  border: 8px solid #fff;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  border-radius: 50%;
+}
