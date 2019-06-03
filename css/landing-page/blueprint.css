@@ -1,5 +1,16 @@
 #blue_print {
-  background: #6066f2;
+  background: #0600cc; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #0600cc 22%,
+    #6172dd 71%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #0600cc 22%,
+    #6172dd 71%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0600cc 22%, #6172dd 71%);
   padding: 170px 0;
   color: #fff;
 }
@@ -14,7 +25,7 @@
 /*--------------------------------------------------------*/
 
 #blue_print .left_side {
-  width: 50%;
+  width: 60%;
   float: left;
 }
 
@@ -25,16 +36,97 @@
 /*--------------------------------------------------------*/
 
 #blue_print .right_side {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 #blue_print .right_side h1 {
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   text-transform: capitalize;
   margin-bottom: 70px;
+  line-height: 1.2;
+}
+
+/*--------------------------------------------------------*/
+
+#blue_print .right_side .info_box {
+  padding: 0 0 80px;
+  /*when using float, put this fix on parent element*/
+}
+
+#blue_print .right_side .info_box:after {
+  content: "";
+  display: table;
+  clear: both;
+  /*when using float, put this fix on parent element*/
+}
+
+/*--------------------------------------------------------*/
+
+#blue_print .right_side .info_box .col-1 {
+  width: 40%;
+  float: left;
+}
+
+#blue_print .right_side .info_box .col-1 .icon_container {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid #fea83b;
+  position: relative;
+}
+
+#blue_print .right_side .info_box .col-1 .icon_container .dashed_circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px dashed #fff;
+  margin: 0 auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/*--------------------------------------------------------*/
+
+#blue_print .right_side .info_box .col-1 .icon_container .fab,
+#blue_print .right_side .info_box .col-1 .icon_container .fas {
+  font-size: 4rem;
+  position: absolute;
+  top: 45px;
+  left: 55px;
+}
+
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+
+#blue_print .right_side .info_box .col-2 {
+  width: 60%;
+  float: left;
+}
+
+/*--------------------------------------------------------*/
+
+#blue_print .right_side .info_box .col-2 h3 {
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#blue_print .right_side .info_box .col-2 p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#blue_print .right_side .info_box .col-2 a {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #fea83b;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------*/
