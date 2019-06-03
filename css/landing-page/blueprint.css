@@ -1,0 +1,40 @@
+#blue_print {
+  background: #6066f2;
+  padding: 170px 0;
+  color: #fff;
+}
+
+#blue_print .container:after {
+  content: "";
+  display: table;
+  clear: both;
+  /*when using float, put this fix on parent element*/
+}
+
+/*--------------------------------------------------------*/
+
+#blue_print .left_side {
+  width: 50%;
+  float: left;
+}
+
+#blue_print .left_side img {
+  width: 100%;
+}
+
+/*--------------------------------------------------------*/
+
+#blue_print .right_side {
+  width: 50%;
+  float: left;
+}
+
+#blue_print .right_side h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 70px;
+}
+
+/*--------------------------------------------------------*/
