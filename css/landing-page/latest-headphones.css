@@ -92,25 +92,68 @@
 }
 
 #latest_headphones .body_content .column .bg_square {
-  background: #160575; /* Old browsers */
-  background: -moz-linear-gradient(
-    45deg,
-    #160575 1%,
-    #ad2f08 41%,
-    #6b1749 74%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    45deg,
-    #160575 1%,
-    #ad2f08 41%,
-    #6b1749 74%
-  ); /* Chrome10-25,Safari5.1-6 */
+  background: #160575;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg,
+      #160575 1%,
+      #ad2f08 41%,
+      #6b1749 74%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,
+      #160575 1%,
+      #ad2f08 41%,
+      #6b1749 74%);
+  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #160575 1%, #ad2f08 41%, #6b1749 74%);
   width: 300px;
   height: 300px;
   margin: 0 auto;
   position: relative;
 }
+
+#latest_headphones .body_content .column:nth-child(1) .bg_square {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  background: #e53ddf;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #e53ddf 0%, #7c010d 18%, #3e43dd 43%, #0b5b3f 71%, #4ad6c3 89%, #4ad6c3 89%, #bf6e4e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #e53ddf 0%, #7c010d 18%, #3e43dd 43%, #0b5b3f 71%, #4ad6c3 89%, #4ad6c3 89%, #bf6e4e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #e53ddf 0%, #7c010d 18%, #3e43dd 43%, #0b5b3f 71%, #4ad6c3 89%, #4ad6c3 89%, #bf6e4e 100%);
+}
+
+#latest_headphones .body_content .column:nth-child(2) .bg_square {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  background: #ce1c9f;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ce1c9f 9%, #a5a010 31%, #3b7f5b 68%, #42bcae 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ce1c9f 9%, #a5a010 31%, #3b7f5b 68%, #42bcae 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ce1c9f 9%, #a5a010 31%, #3b7f5b 68%, #42bcae 100%);
+}
+
+#latest_headphones .body_content .column:nth-child(3) .bg_square {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  background: #387567;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #387567 0%, #929651 12%, #b68d4c 21%, #020101 53%, #e01619 89%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #387567 0%, #929651 12%, #b68d4c 21%, #020101 53%, #e01619 89%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #387567 0%, #929651 12%, #b68d4c 21%, #020101 53%, #e01619 89%);
+}
+
+/* ------------------------------------------------------------ */
 
 #latest_headphones .body_content .column .bg_square img {
   width: 70%;
@@ -119,26 +162,72 @@
   left: 15%;
 }
 
-#latest_headphones .body_content .column .bg_square .cart {
-  background: #160575; /* Old browsers */
-  background: -moz-linear-gradient(
-    45deg,
-    #160575 1%,
-    #ad2f08 41%,
-    #6b1749 74%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    45deg,
-    #160575 1%,
-    #ad2f08 41%,
-    #6b1749 74%
-  ); /* Chrome10-25,Safari5.1-6 */
+/* --------------------------------------------------------- */
+
+#latest_headphones .body_content .column:nth-child(1) .bg_square .cart {
+  background: #160575;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg,
+      #160575 1%,
+      #ad2f08 41%,
+      #6b1749 74%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,
+      #160575 1%,
+      #ad2f08 41%,
+      #6b1749 74%);
+  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, #160575 1%, #ad2f08 41%, #6b1749 74%);
   border: 8px solid #fff;
-  width: 80px;
-  height: 80px;
+  width: 94px;
+  height: 94px;
   position: absolute;
   top: -15%;
   right: -10%;
   border-radius: 50%;
+  color: #fff;
+}
+
+#latest_headphones .body_content .column:nth-child(2) .bg_square .cart {
+  background: #ce1c9f;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ce1c9f 9%, #a5a010 31%, #3b7f5b 68%, #42bcae 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ce1c9f 9%, #a5a010 31%, #3b7f5b 68%, #42bcae 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ce1c9f 9%, #a5a010 31%, #3b7f5b 68%, #42bcae 100%);
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  border-radius: 50%;
+  color: #fff;
+  border: 8px solid #fff;
+
+}
+
+#latest_headphones .body_content .column:nth-child(3) .bg_square .cart {
+  background: #387567;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #387567 0%, #929651 12%, #b68d4c 21%, #020101 53%, #e01619 89%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #387567 0%, #929651 12%, #b68d4c 21%, #020101 53%, #e01619 89%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #387567 0%, #929651 12%, #b68d4c 21%, #020101 53%, #e01619 89%);
+  border: 8px solid #fff;
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  border-radius: 50%;
+  color: #fff;
+}
+
+#latest_headphones .body_content .column .bg_square .cart .fas {
+  font-size: 2rem;
+  position: relative;
+  top: 25px;
+  left: -2px;
 }
