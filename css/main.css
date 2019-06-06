@@ -6,6 +6,8 @@
 @import "landing-page/color-collection.css";
 @import "landing-page/blueprint.css";
 @import "landing-page/latest-headphones.css";
+@import "landing-page/latest-headphones.css";
+@import "landing-page/footer.css";
 
 /* COLOUR SWATCHES
 FEA83B orange
@@ -24,6 +26,10 @@ E6CDF9 light purple
 .container_fluid {
   margin: 0 5%;
   padding: 0 20px;
+}
+
+input::placeholder {
+  color: #d5e2ea;
 }
 
 .box_shadow_down {
