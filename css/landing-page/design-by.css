@@ -154,7 +154,9 @@
   margin-top: 61px;
 }
 
-/*--------------------------------------------------------*/
+/*--------------------------- ----------------------------------------*/
+/* ---------------------RESPONSIVE DESIGN SECTION ---------------------- */
+/* ------------------------------------------------------------------- */
 
 /* LAPTOPS */
 @media only screen and (max-width: 1215px) {
@@ -162,8 +164,29 @@
 
 /* TABLETS */
 @media only screen and (max-width: 1023px) {
+  #design_by .design_container .icons_section_white .refresh_logo {
+    left: 44%;
+  }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 767px) {
+  #design_by .design_container .bg_container {
+    padding: 20px;
+  }
+  #design_by .design_container .purple_info_box {
+    width: 100%;
+  }
+
+  #design_by .design_container .icons_section_white {
+    width: 100%;
+  }
+
+  #design_by .design_container .icons_section_white .refresh_logo {
+    display: none;
+  }
+
+  #design_by .design_container .purple_info_box .features_list li {
+    line-height: 2;
+  }
 }

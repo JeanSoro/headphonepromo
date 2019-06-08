@@ -126,10 +126,40 @@
   width: 100%;
 }
 
-/*--------------------------- RESPONSIVE DESIGN SECTION -------------*/
+/*--------------------------- ----------------------------------------*/
+/* ---------------------RESPONSIVE DESIGN SECTION ---------------------- */
+/* ------------------------------------------------------------------- */
 
 /* ---------------------------LAPTOPS---------------------------- */
 @media only screen and (max-width: 1215px) {
+  #top_jumbo .left_side .info_container .email_input_area {
+    width: 100%;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area button {
+    background: #6066f2;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+  }
 }
 
 /*------------------------ TABLETS---------------------------- */
