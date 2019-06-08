@@ -454,3 +454,15 @@
   padding: 20px 50px;
   text-transform: uppercase;
 }
+
+/* LAPTOPS */
+@media only screen and (max-width: 1215px) {
+}
+
+/* TABLETS */
+@media only screen and (max-width: 1023px) {
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+}

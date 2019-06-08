@@ -43,3 +43,15 @@ input::placeholder {
   -moz-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
   box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
 }
+
+/* LAPTOPS */
+@media only screen and (max-width: 1215px) {
+}
+
+/* TABLETS */
+@media only screen and (max-width: 1023px) {
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+}

@@ -33,7 +33,7 @@
   /*when using float, put this fix on parent element*/
 }
 
-/*------------------------------------------------------*/
+/*-------------------------LEFT SIDE TOP JUMBO----------------------------*/
 
 #top_jumbo .left_side {
   width: 40%;
@@ -90,6 +90,7 @@
   position: relative;
   top: 7px;
   margin-left: 15px;
+  color: #d5e2ea;
 }
 
 /*------------------------------------------------------*/
@@ -123,4 +124,132 @@
 
 #top_jumbo .right_side img {
   width: 100%;
+}
+
+/*--------------------------- RESPONSIVE DESIGN SECTION -------------*/
+
+/* ---------------------------LAPTOPS---------------------------- */
+@media only screen and (max-width: 1215px) {
+}
+
+/*------------------------ TABLETS---------------------------- */
+@media only screen and (max-width: 1023px) {
+  #top_jumbo {
+    padding: 0 0 300px;
+  }
+
+  #top_jumbo .left_side {
+    width: 40%;
+  }
+
+  #top_jumbo .left_side .large_number {
+    font-size: 250px;
+  }
+
+  #top_jumbo .left_side .info_container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top_jumbo .left_side .info_container p {
+    font-size: 1.2rem;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area {
+    width: 100%;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area button {
+    background: #6066f2;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+  }
+
+  /*--------------------right side responsive-------------------- */
+  #top_jumbo .right_side {
+    width: 60%;
+  }
+
+  #top_jumbo .right_side img {
+    top: 156px;
+    position: relative;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  #top_jumbo {
+    padding: 0 0 300px;
+  }
+
+  #top_jumbo .left_side {
+    width: 100%;
+  }
+  #top_jumbo .left_side .large_number {
+    font-size: 250px;
+  }
+
+  #top_jumbo .left_side .info_container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top_jumbo .left_side .info_container p {
+    font-size: 1.2rem;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area {
+    width: 100%;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+
+  #top_jumbo .left_side .info_container .email_input_area button {
+    background: #6066f2;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+  }
+
+  /*--------------------right side responsive-------------------- */
+  #top_jumbo .right_side {
+    width: 100%;
+  }
+
+  #top_jumbo .right_side img {
+    top: 0px;
+  }
 }
