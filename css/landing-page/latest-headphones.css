@@ -455,14 +455,65 @@
   text-transform: uppercase;
 }
 
+/*----------------------------------------------------------------------*/
+/* ---------------------RESPONSIVE DESIGN SECTION ---------------------- */
+/* --------------------------------------------------------------------- */
+
 /* LAPTOPS */
 @media only screen and (max-width: 1215px) {
 }
 
 /* TABLETS */
 @media only screen and (max-width: 1023px) {
+  #latest_headphones .header_content h1 {
+    font-size: 3.5rem;
+  }
+
+  #latest_headphones .body_content .column {
+    width: 50%;
+    margin-bottom: 150px;
+  }
+
+  #latest_headphones .footer_content img {
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) invert(100%);
+    opacity: 0.1;
+    transform: rotate(40deg);
+  }
+
+  #latest_headphones .header_content .directions {
+    top: 18px;
+  }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 767px) {
+  #latest_headphones .header_content {
+    text-align: center;
+  }
+
+  #latest_headphones .body_content .column {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+
+  #latest_headphones .header_content h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    max-width: none;
+  }
+
+  #latest_headphones .header_content .directions {
+    display: inline-block;
+    float: none;
+    position: static;
+    margin: 50px auto;
+    top: 0;
+  }
 }

@@ -129,7 +129,9 @@
   text-decoration: none;
 }
 
-/*--------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/* ---------------------RESPONSIVE DESIGN SECTION ---------------------- */
+/* ------------------------------------------------------------------- */
 
 /* LAPTOPS */
 @media only screen and (max-width: 1215px) {
@@ -137,8 +139,104 @@
 
 /* TABLETS */
 @media only screen and (max-width: 1023px) {
+  #blue_print .right_side h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  #blue_print .right_side .info_box .col-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+
+  #blue_print .right_side .info_box .col-1 .icon_container {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+  }
+
+  #blue_print .right_side .info_box .col-1 .icon_container .dashed_circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  #blue_print .right_side .info_box .col-1 .icon_container .fab,
+  #blue_print .right_side .info_box .col-1 .icon_container .fas {
+    font-size: 3rem;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+
+  #blue_print .left_side {
+    width: 40%;
+  }
+
+  #blue_print .right_side {
+    width: 60%;
+  }
+
+  #blue_print {
+    padding: 100px 0;
+  }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 767px) {
+  #blue_print .right_side h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  #blue_print {
+    padding: 100px 0;
+  }
+
+  #blue_print img {
+    display: none;
+  }
+
+  #blue_print .left_side {
+    width: 100%;
+  }
+
+  #blue_print .right_side {
+    width: 100%;
+  }
+
+  #blue_print .right_side .info_box .col-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+
+  #blue_print .right_side .info_box .col-1 .icon_container {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+  }
+
+  #blue_print .right_side .info_box .col-1 .icon_container .dashed_circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  #blue_print .right_side .info_box .col-1 .icon_container .fab,
+  #blue_print .right_side .info_box .col-1 .icon_container .fas {
+    font-size: 3rem;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
 }
