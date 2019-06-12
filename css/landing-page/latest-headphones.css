@@ -619,4 +619,10 @@
     margin: 0;
     width: 100%;
   }
+
+  #latest_headphones .body_content .column:nth-child(1) .bg_square,
+  #latest_headphones .body_content .column:nth-child(2) .bg_square,
+  #latest_headphones .body_content .column:nth-child(3) .bg_square {
+    transform: scale(0.8);
+  }
 }
