@@ -469,11 +469,14 @@
     font-size: 3.5rem;
   }
 
-  #latest_headphones .body_content .column {
-    width: 50%;
-    margin-bottom: 150px;
+  #latest_headphones .header_content .directions {
+    top: 18px;
   }
 
+  #latest_headphones .body_content .column {
+    width: 50%;
+    margin-bottom: 100px; /* 150px */
+  }
   #latest_headphones .footer_content img {
     width: 50%;
     z-index: 1;
@@ -486,8 +489,62 @@
     transform: rotate(40deg);
   }
 
-  #latest_headphones .header_content .directions {
-    top: 18px;
+  #latest_headphones .footer_content .footer_info_box form {
+    width: 80%;
+  }
+
+  #latest_headphones .footer_content .footer_info_box .email_input_area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area
+    input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+
+  #latest_headphones .footer_content .footer_info_box .email_input_area button {
+    background: #6066f2;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area:nth-child(1) {
+    margin: 0;
+    width: 50%;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area:nth-child(1)
+    input[type="text"] {
+    margin: 0;
+    width: 80%;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area:nth-child(2) {
+    margin: 0;
+    width: 50%;
   }
 }
 
@@ -497,14 +554,9 @@
     text-align: center;
   }
 
-  #latest_headphones .body_content .column {
-    width: 100%;
-    margin-bottom: 150px;
-  }
-
   #latest_headphones .header_content h1 {
-    text-align: center;
     font-size: 3rem;
+    text-align: center;
     width: 100%;
     max-width: none;
   }
@@ -513,7 +565,58 @@
     display: inline-block;
     float: none;
     position: static;
-    margin: 50px auto;
     top: 0;
+    margin: 50px auto;
+  }
+
+  #latest_headphones .body_content .column {
+    width: 100%;
+    margin-bottom: 100px; /* 150px */
+  }
+
+  #latest_headphones .footer_content .footer_info_box .email_input_area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area
+    input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+
+  #latest_headphones .footer_content .footer_info_box .email_input_area button {
+    background: #6066f2;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area:nth-child(1) {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #latest_headphones
+    .footer_content
+    .footer_info_box
+    .email_input_area:nth-child(2) {
+    margin: 0;
+    width: 100%;
   }
 }
